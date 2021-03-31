@@ -1,0 +1,75 @@
+#main{
+    display: flex;
+}
+#Services{
+    height: 150px;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    position: relative;
+    top: 10px;
+    left: 0px;
+    display: flex;
+    margin-left: 13px;
+}
+#Services:hover{
+    transition: .6s;
+    background: silver;
+    transform: translateY(7px);
+    cursor: pointer;
+    color: black;
+}
+#Services img{
+    position: relative;
+    top: 20px;
+    height: 130px;
+}
+#Services h4{
+    position: relative;
+    top: 0px;
+    color: aliceblue;
+}
+#Services:hover h4{
+    color: #000;
+}
+
+@media (prefers-color-scheme : light){
+    #Services h4{
+        color: rgba(0,0,0,0.7);
+    }
+}
+@media screen and ( max-width : 480px){
+    #Services h4{
+        position: relative;
+        top: 15px;
+        left: 20px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #Services{
+        height: 200px;
+        box-shadow: 0 0 5px rgba(241, 236, 236, 0.8);
+        left: 0px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+    #Services img{
+        position: relative;
+        top: 50px;
+        height: 100px;
+        width: 100%;
+    }
+    #Services:hover{
+        transition: .6s;
+        box-shadow: 2px 2px 20px rgba(241, 236, 236, 0.6);
+        left: 0%;
+        color: black;
+    }
+}

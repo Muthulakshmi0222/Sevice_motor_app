@@ -1,0 +1,28 @@
+#parts_list1,
+#parts_list2,
+#parts_list3 {
+  display: flex;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  /* #parts_list1, #parts_list2, #parts_list3{
+        display: flex;
+        flex-direction: column;
+        border : 2px solid red;
+    } */
+  #parts_list1,
+  #parts_list2,
+  #parts_list3 {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .hide {
+    display: block;
+  }
+}

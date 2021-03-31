@@ -1,0 +1,30 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Map{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+}
+#Map iframe {
+    box-shadow: 2px 2px 20px rgba(24, 23, 23, 0.5);
+    box-sizing: border-box;
+    width: 100%;
+    height: 380px;
+    padding: 15px 15px 15px 15px;
+}
