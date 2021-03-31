@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(2, 200px);
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .hide {
     display: block;
