@@ -7,7 +7,7 @@
 #nav {
   color: #fff;
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 40% 60%;
   z-index: 10000;
 }
 #logo {
@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  left: -100px;
+  left: -60px;
   cursor: pointer;
 }
 #logo select {
@@ -107,6 +107,22 @@
   position: absolute;
   left: -2000px;
 }
+
+.cart_count {
+  background: red;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  z-index: 999;
+  position: relative;
+  top: -26px;
+}
+.conut {
+  position: relative;
+  top: -5px;
+  left: 0px;
+  font-weight: 500 !important;
+}
 /* .light-mode{
     color: #fff;
     background: #000;
@@ -156,7 +172,7 @@
     left: 450px;
     top: 55px;
     z-index: 10000;
-    line-height: 100px;
+    line-height: 80px;
     transform: 0.5s;
     height: 100vh;
   }
@@ -167,6 +183,7 @@
   #menu ul {
     flex-direction: column;
     color: #fff;
+    margin-top: 40px;
   }
   .fa-bars,
   .fa-times-circle {
@@ -181,7 +198,7 @@
     z-index: 1000;
     font-size: 24px;
     left: 170px;
-    top: -24px;
+    top: -46px;
     transition: 0.2s;
   }
   #toggle {
@@ -193,5 +210,20 @@
   }
   #menu ul li a {
     color: lime;
+  }
+  .cart_count {
+    background: red;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: 999;
+    position: relative;
+    top: -56px;
+  }
+  .conut {
+    position: relative;
+    top: -33px;
+    left: 0px;
+    font-weight: 500 !important;
   }
 }

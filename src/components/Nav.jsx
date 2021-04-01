@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import '../styles/Nav.css'
 import { Link } from "react-router-dom"; 
+import { useStateValue } from '../StateProvider';
 
 const Nav = () => {
+  const [{basket}] = useStateValue();
   const [sideBar,setSidebar] = useState(false);
 
   const [showIcon,setShowIcon] = useState(false);
@@ -49,6 +51,12 @@ const Nav = () => {
               <li><Link to='/SpareParts' ><i className="fas fa-tools"></i>Spare</Link></li>
               <li><Link to='/Profile' ><i className='bx bxs-user-circle'></i>Profile</Link></li>
               <li><Link to='/Login' ><i class='bx bxs-log-in-circle'></i>Signin</Link></li>
+              <li><Link to='/orders' >
+              <i id='cartIcon' className="fas fa-shopping-cart"></i>
+              <div className="cart_count">
+              <p className='conut'><small>{basket?.length}</small></p>
+              </div>
+              </Link></li>
               <li><div id='toggle'>
                    <button id='toggle_button' onClick={DarkBtn}></button>  
                   <i className="fas fa-cloud-sun"></i>

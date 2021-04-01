@@ -11,6 +11,8 @@ import Login from './components/Login';
 import Admin_Page from "./components/Admin_Page";
 import { auth , provider } from './firebase'
 import { useStateValue } from './StateProvider';
+import Cart from './components/Cart';
+import Order from './components/Order';
 
 const App = () => {
     const [{}, dispatch] = useStateValue();
@@ -46,6 +48,9 @@ const App = () => {
           </Route>
           <Route exact path="/Admin">
                <Admin_Page/>
+          </Route>
+          <Route exact path="/orders">
+               <Order />
           </Route>
       </Switch>
     </>

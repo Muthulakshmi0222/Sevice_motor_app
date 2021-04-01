@@ -3,6 +3,8 @@ import '../styles/Home.css'
 import Price from "./Price";
 import Cal from './Cal'
 import Admin from './Admin'
+import ReactCarousel from './Carosuel'
+import { Carousel } from 'react-responsive-carousel';
 const Home = () => {
 
 
@@ -29,6 +31,9 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
   return(
     <>
       <div id='home'>
+      <div className="react_carosurl">
+        <ReactCarousel className='react_carosurl' />
+      </div>
       <div id='ServiceForm'>
         <button id='bookBtn' onClick={showCalendar}>BOOK NOW </button>
           <h3>Get instance bike service in <span><i class="fas fa-map-marker-alt"></i>Mumbai</span></h3>

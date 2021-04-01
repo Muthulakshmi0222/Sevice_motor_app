@@ -1,12 +1,30 @@
+import { Button } from '@material-ui/core'
 import React from 'react'
 import '../styles/Parts.css'
-const Parts = (props) => {
+import { useStateValue } from '../StateProvider'
+
+const Parts = ({imgSorc , part_name, ratings, price}) => {
+
+    const [{basket}, dispatch] = useStateValue();
+    const handleDispatch = () => {
+        dispatch({
+            type : 'ADD_TO_BASKET',
+            item : {
+                name : part_name,
+                imgSrc : imgSorc,
+                rating : ratings,
+                price : price,
+                
+            },
+        });
+    }
     return(
         <>
         <div id='parts'>
-            <img src={props.imgSorc} alt='Parts'/>
-            <h5>{props.part_name}</h5>
+            <img src={imgSorc} alt='Parts'/>
+            <h5>{part_name}</h5>
         </div>
+        <button id='cartBtn' onClick={handleDispatch} variant="contained">Addtocart</button>  
         </>
     );
 };
