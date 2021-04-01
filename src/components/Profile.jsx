@@ -1,7 +1,9 @@
 import React from 'react'
 import { useStateValue } from '../StateProvider';
 import '../styles/Profile.css';
-import Login_page from './Login_page'
+import payment from '../img/payment.svg'
+import review from '../img/review.svg'
+
 const Profile = (props) =>{
     const [{user}] = useStateValue();
     console.log(user);
@@ -73,13 +75,13 @@ const Profile = (props) =>{
                             <div className='profile-posts tab'>
                             <h4>Bills</h4>
                                 {/* <h1> Your Bills</h1> */}
-                                <img src='https://www.kindpng.com/picc/m/699-6992191_bill-clipart-bill-payment-pay-bill-png-transparent.png' alt='Bill-image'/>
+                                <img src={payment} alt='Bill-image'/>
                             </div>
                             <div className='profile-revies tab'>
                                 {/* <h1> Your Reviews</h1> */}
                                 <h4>Reviews</h4>
-                                <div id='user-ratings'>
-                                
+                                <div id='user-ratings' style={{backgroundURL : {review}}}>
+                                    <img className='reviewImg' src={review} alt=""/>
                                     <h3 id='rating'>3.5</h3>
                                     <div id='rate'>
                                         <div className='star'>
