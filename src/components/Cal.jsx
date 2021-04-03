@@ -96,7 +96,7 @@ const Cal = () => {
                     </div>
                     <div>
                         <input type="radio" id="slot3" name="gender" value="2 to 5"></input>.
-                        <p>12 to 2</p>
+                        <p>2 to 5</p>
                     </div>
                     </div>
                     {/* <button id='setTime' onClick={sendTiming}>Set Time</button> */}

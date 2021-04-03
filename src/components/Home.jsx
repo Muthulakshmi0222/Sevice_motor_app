@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import '../styles/Home.css'
 import Price from "./Price";
 import Cal from './Cal'
-import Admin from './Admin'
 import ReactCarousel from './Carosuel'
-import { Carousel } from 'react-responsive-carousel';
+
 const Home = () => {
 
 

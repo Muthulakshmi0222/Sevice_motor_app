@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import '../styles/Nav.css'
 import { Link } from "react-router-dom"; 
 import { useStateValue } from '../StateProvider';
-
+import honda_logo from '../img/honda_logo.png'
 const Nav = () => {
   const [{basket}] = useStateValue();
   const [sideBar,setSidebar] = useState(false);
@@ -27,7 +27,11 @@ const Nav = () => {
 
     <>
       <div id='nav'>
-          <div id='logo'><h1>Honda <span id='serviceText'>Service</span></h1>
+          <div id='logo'>
+          
+          <h1><img className='nav_logo' src={honda_logo} alt="logo"/>Honda 
+          <span id='serviceText'>Service</span>
+          </h1>
             <select>
               <option>Mumbai</option>
               <option>Thane</option>
