@@ -3,6 +3,8 @@ import '../styles/Nav.css'
 import { Link } from "react-router-dom"; 
 import { useStateValue } from '../StateProvider';
 import honda_logo from '../img/honda_logo.png'
+import News from './News'
+
 const Nav = () => {
   const [{basket}] = useStateValue();
   const [sideBar,setSidebar] = useState(false);
@@ -29,7 +31,7 @@ const Nav = () => {
       <div id='nav'>
           <div id='logo'>
           
-          <h1><img className='nav_logo' src={honda_logo} alt="logo"/>Honda 
+          <h1><img className='nav_logo' src={honda_logo} alt="logo"/>onda 
           <span id='serviceText'>Service</span>
           </h1>
             <select>
@@ -50,11 +52,11 @@ const Nav = () => {
                   <i className="far fa-times-circle" onClick={hide}></i>
             </div>
               <li><Link to='/' ><i className="fas fa-home"></i>Home</Link></li>
-              <li><Link exact to='/News' ><i className="fas fa-newspaper"></i>News</Link></li>
+              <li><Link to='/News' ><i className="fas fa-newspaper"></i>News</Link></li>
               <li><Link to='/Service' ><i className="fas fa-hammer"></i>Service</Link></li>
               <li><Link to='/SpareParts' ><i className="fas fa-tools"></i>Spare</Link></li>
               <li><Link to='/Profile' ><i className='bx bxs-user-circle'></i>Profile</Link></li>
-              <li><Link to='/Login' ><i class='bx bxs-log-in-circle'></i>Signin</Link></li>
+              <li><Link to='/Login' ><i className='bx bxs-log-in-circle'></i>Signin</Link></li>
               <li><Link to='/orders' >
               <i id='cartIcon' className="fas fa-shopping-cart"></i>
               <div className="cart_count">

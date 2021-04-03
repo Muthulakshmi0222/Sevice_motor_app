@@ -42,6 +42,12 @@
   color: aliceblue;
   font-size: 11.5px;
 }
+#parts > h5 > p {
+  font-size: 10px !important;
+  position: relative;
+  left: 48px;
+  top: -35px;
+}
 @media (prefers-color-scheme: light) {
   #parts h5 {
     color: rgba(0, 0, 0, 0.7);

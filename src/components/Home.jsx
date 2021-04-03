@@ -22,7 +22,7 @@ const Home = () => {
   const successCallback = (possition) => {
   };
 
-const errorCallback = (error) => {
+  const errorCallback = (error) => {
     console.log('Please Allow Location');
   };
 
@@ -35,8 +35,8 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
       </div>
       <div id='ServiceForm'>
         <button id='bookBtn' onClick={showCalendar}>BOOK NOW </button>
-          <h3>Get instance bike service in <span><i class="fas fa-map-marker-alt"></i>Mumbai</span></h3>
-          <i class="fas fa-mouse-pointer"></i>
+          <h3>Get instance bike service in <span><i className="fas fa-map-marker-alt"></i>Mumbai</span></h3>
+          <i className="fas fa-mouse-pointer"></i>
           <select id='vehicals'>
             <option>Select brand</option>
             <option>Honda</option>
@@ -44,15 +44,15 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
             <option>TVS</option>
             <option>Hero Pleasure</option>
           </select><br/><br/>
-          <input type='email' required placeholder='Enter Email'/><i class="fas fa-envelope"></i>
+          <input type='email' required placeholder='Enter Email'/><i className="fas fa-envelope"></i>
           <button id='check-price-btn' onClick={Price_Visible}>Check price</button>
             <div id='social'>
-            <div class="social-links">
-        <a href="https://github.com/Aman2221"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/Aman23398618"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100012875318770"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/aman_singhhhhhh/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/aman-singh-6a81281b3/"><i class="fab fa-linkedin-in"></i></a>
+            <div className="social-links">
+        <a href="https://github.com/Aman2221"><i className="fab fa-github"></i></a>
+        <a href="https://twitter.com/Aman23398618"><i className="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100012875318770"><i className="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/aman_singhhhhhh/"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/aman-singh-6a81281b3/"><i className="fab fa-linkedin-in"></i></a>
     </div>
             </div>
       </div>

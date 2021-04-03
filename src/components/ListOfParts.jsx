@@ -1,4 +1,3 @@
-import { Button } from '@material-ui/core'
 import React from 'react'
 import '../styles/Parts.css'
 import { useStateValue } from '../StateProvider'
@@ -22,7 +21,7 @@ const Parts = ({imgSorc , part_name, ratings, price}) => {
         <>
         <div id='parts'>
             <img src={imgSorc} alt='Parts'/>
-            <h5>{part_name}</h5>
+            <h5>{part_name}<p>{price}</p></h5>
         </div>
         <button id='cartBtn' onClick={handleDispatch} variant="contained">Addtocart</button>  
         </>

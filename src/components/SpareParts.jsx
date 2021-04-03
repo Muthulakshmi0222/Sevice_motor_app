@@ -1,4 +1,3 @@
-import { Button } from '@material-ui/core';
 import React from 'react'
 import '../styles/SpareParts.css'
 import Parts from './ListOfParts'
@@ -48,19 +47,19 @@ const Spare = () =>{
         <div id='parts_list2'>
         <Parts
                 imgSorc='https://storage.googleapis.com/spares/spares/segment_icon/Engine-Cooling.png'
-                part_name='COOLING SYSTEM'
+                part_name='COOL SYSTEM'
                 ratings = '⭐⭐⭐⭐'
                 price = '$ 89'
             />
             <Parts
                 imgSorc='https://storage.googleapis.com/spares/spares/segment_icon/Transmission.png'
-                part_name='DRIVETRAIN'
+                part_name='DRIVE PARTS'
                 ratings = '⭐⭐⭐'
                 price = '$ 665'
             />
             <Parts
                 imgSorc='https://storage.googleapis.com/spares/spares/segment_icon/Electronics.png'
-                part_name='ELECTRICAL'
+                part_name='ELECTR PARTS'
                 ratings = '⭐⭐⭐'
                 price = '$ 129'
             />
@@ -72,7 +71,7 @@ const Spare = () =>{
             />
             <Parts
                 imgSorc='https://storage.googleapis.com/spares/spares/segment_icon/Exhaust%20System.png'
-                part_name='EXHAUST SYSTEM'
+                part_name='EXHAUS SYSTEM'
                 ratings = '⭐⭐⭐'
                 price = '$ 89'
             />
@@ -88,25 +87,25 @@ const Spare = () =>{
         <div id='parts_list2'>
         <Parts
                 imgSorc='https://storage.googleapis.com/spares/spares/segment_icon/Filters.png'
-                part_name='FILTERS'
+                part_name='FILTER PARTS'
                 ratings = '⭐⭐'
                 price = '$ 19'
             />
             <Parts
                 imgSorc='https://storage.googleapis.com/spares/segment_icons/Fasteners.png'
-                part_name='FASTENERS'
+                part_name='FASTE PARTS'
                 ratings = '⭐⭐⭐'
                 price = '$ 419'
             />
             <Parts
                 imgSorc='https://storage.googleapis.com/spares/segment_icons/Lubrication_Hydraulics.png'
-                part_name='LUBRICATION'
+                part_name='LUBRIC PARTS'
                 ratings = '⭐⭐⭐'
                 price = '$ 239'
             />
             <Parts
                 imgSorc='https://storage.googleapis.com/spares/spares/segment_icon/Seal_Gasket.png'
-                part_name='GASKET & SEALS'
+                part_name='GAS SEALS'
                 ratings = '⭐⭐⭐⭐⭐'
                 price = '$ 49'
             />

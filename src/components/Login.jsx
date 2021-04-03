@@ -94,7 +94,8 @@ const Login = () => {
             </div>
         ): (
             <Login_page
-             email = {email}
+
+            email = {email}
             setEmail = {setEmail}
             password = {password}
             setPassword = {setPassword}

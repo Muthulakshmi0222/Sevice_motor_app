@@ -6,7 +6,6 @@ import review from '../img/review.svg'
 
 const Profile = (props) =>{
     const [{user}] = useStateValue();
-    console.log(user);
     return(
      
         <>
@@ -18,7 +17,7 @@ const Profile = (props) =>{
                     <div id='profile-nav-info'>
                         <h3 id='username'>{user?.displayName}</h3>
                         <div id='address'>
-                        <p id='State'><i class="fas fa-map-marker-alt"></i> New York,</p>
+                        <p id='State'><i className="fas fa-map-marker-alt"></i> New York,</p>
                         <span id='country'>&nbsp;USA</span>
                         </div>
                     </div>

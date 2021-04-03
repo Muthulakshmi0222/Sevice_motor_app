@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ReactDOM from 'react-dom'
 import '../styles/Admin.css'
 import { db  } from "../firebase";
 const Admin = () => {
@@ -50,7 +49,7 @@ const Admin = () => {
     return(
         <>
         <div id='admin-nav'>
-            <h1><i class="fa fa-user-secret" aria-hidden="true"></i>Admin Pannel</h1>
+            <h1><i className="fa fa-user-secret" aria-hidden="true"></i>Admin Pannel</h1>
         </div>
         <h2 id='Admin_data'>Data</h2>
         <div id='admin-Data'>

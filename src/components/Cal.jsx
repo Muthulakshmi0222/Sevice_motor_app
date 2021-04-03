@@ -84,7 +84,6 @@ const Cal = () => {
                 </form> */}
 
                 <div className="timing">
-                  <form>
                     <div onChange={onChangeRatio} id='slots'>
                     <div>
                         <input type="radio" id="slot1" name="gender" value="9 to 11"></input>
@@ -99,36 +98,11 @@ const Cal = () => {
                         <p>2 to 5</p>
                     </div>
                     </div>
-                    {/* <button id='setTime' onClick={sendTiming}>Set Time</button> */}
                     <div onChange={onChangeEmail}>
                         <input type="email" required id="mail" name="email" value={emailVal} placeholder='Email'></input>.
                     </div>
-                  </form>
                 </div>
                 <button type="submit" id='submit_btn' onClick={submitForm}>BOOK</button>
-                 {/* <div id='admin-nav'>
-            <h1><i class="fa fa-user-secret" aria-hidden="true"></i>Admin</h1>
-        </div>
-       <div id='admin-Data'>
-          <table class="table">
-              <thead>
-                      <tr>
-                      <th scope="col">Sr.</th>
-                      <th scope="col"><i class="fa fa-envelope" aria-hidden="true"></i>Email</th>
-                      <th scope="col"><i class="fas fa-clock"></i>Time </th>
-                      <th scope="col"><i class="fa fa-calendar" aria-hidden="true"></i>Date</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                      <th scope="row">1</th>
-                      <td>{emailVal}</td>
-                      <td>{radioVal}</td>
-                      <td>{newValue}</td>
-                      </tr>
-                      </tbody>
-              </table>
-            </div>*/}
           </div> 
       </form>
       <div id='admin'>

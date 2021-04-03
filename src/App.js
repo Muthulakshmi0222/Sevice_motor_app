@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from 'react'
+import React ,{useEffect} from 'react'
 import './styles/App.css';
 import { Route,Switch } from "react-router-dom";
 import Nav from './components/Nav'
@@ -11,11 +11,10 @@ import Login from './components/Login';
 import Admin_Page from "./components/Admin_Page";
 import { auth , provider } from './firebase'
 import { useStateValue } from './StateProvider';
-import Cart from './components/Cart';
 import Order from './components/Order';
 
 const App = () => {
-    const [{}, dispatch] = useStateValue();
+    const [{user}, dispatch] = useStateValue();
     useEffect(() => {
         auth.signInWithPopup(provider).then(result => {
             dispatch({
@@ -23,7 +22,7 @@ const App = () => {
                 user : result.user
             })
         })
-    }, [])
+    }, [user])
   return(
     <>
       <Nav/>

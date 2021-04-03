@@ -37,7 +37,7 @@ function Admin_Page() {
       <div className="data">
       <ul>
       <li>
-      <h3><i class='bx bxs-calendar-check'></i>Date</h3>
+      <h3><i className='bx bxs-calendar-check'></i>Date</h3>
       {date.map((Date) => (
                 <p>
                 {Date.text}
@@ -45,7 +45,7 @@ function Admin_Page() {
       ))}
       </li>
       <li>
-        <h3><i class='bx bx-time'></i>Time</h3>
+        <h3><i className='bx bx-time'></i>Time</h3>
         {time.map((Time) => (
                 <p>
                 {Time.text}
@@ -53,7 +53,7 @@ function Admin_Page() {
             ))}
       </li>
       <li>
-        <h3><i class="far fa-envelope"></i>Email</h3>
+        <h3><i className="far fa-envelope"></i>Email</h3>
         {gmail.map((Gmail) => (
                 <p>
                 {Gmail.text}

@@ -9,9 +9,9 @@ const Login_page = (props) => {
     const [URL,setUrl] = useState('');
     const [{user}, dispatch] = useStateValue();
     const responseGoogle = (response) => {
-        setUserName(response.profileObj.name);
-        setEmail(response.profileObj.email);
-        setUrl(response.profileObj.imageUrl);
+        setUserName(response?.profileObj.name);
+        setEmail(response?.profileObj.email);
+        setUrl(response?.profileObj.imageUrl);
   }
     const {
         email,
@@ -43,11 +43,11 @@ const Login_page = (props) => {
             <div className='loginContainer'>
             <img src={URL} />
             <h5>Welcome <span>{userName}</span></h5>
-                <label><i class='bx bxs-user-circle'></i>Username</label>
+                <label><i className='bx bxs-user-circle'></i>Username</label>
                 <input type='email' required value={email} 
                 onChange={(e ) => setEmail(e.target.value)}/>
                 <p className='errorMsg'>{emaiError}</p>
-                <label><i class='bx bxs-shield-x'></i>Password</label>
+                <label><i className='bx bxs-shield-x'></i>Password</label>
                 <input type='password' autoFocus required 
                 onChange={e => setPassword(e.target.value)}/>
                 <p className='errorMsg'>{passwordError}</p>
