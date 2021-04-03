@@ -1,141 +1,144 @@
-.container h4{
-    letter-spacing: 2px;
-    color: #000;
-    background-color: transparent;
+.container h4 {
+  letter-spacing: 2px;
+  color: #000;
+  background-color: transparent;
 }
 #cal {
-    width: 400px;
-    font-weight: 800;
-    text-decoration: none;
-    resize: both;
-    display: flex;
-    justify-content: center;
+  width: 400px;
+  font-weight: 800;
+  text-decoration: none;
+  resize: both;
+  display: flex;
+  justify-content: center;
+}
+#cal div {
+  background: #fff;
+}
+#cal button {
+  box-shadow: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+  background: none;
+  position: absolute;
+  top: 60px;
+  left: 550px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+  font-family: "Poppins";
+}
+.container form button {
+  width: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.container button:hover {
+  transition: 0.3s;
+  background-color: silver;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+.container form button {
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: -10px;
+  border-radius: 20px;
+  outline: none;
+  border: 0.1px solid;
+}
+.container #mail {
+  font-size: 16px;
+  width: 380px;
+  height: 40px;
+  border: 1px solid;
+  text-align: center;
+  font-weight: 600;
+}
+#setTime {
+  position: relative;
+  top: 1px;
+  left: 150px;
+}
+.container form button:hover {
+  transition: 0.3s;
+  background-color: silver;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+.timing {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 380px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+#slots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#slots div {
+  background: none;
+  border-radius: 50% !important;
+}
+.timing #slots input {
+  border: none;
+  outline: none;
+  background: none;
+  height: 100px;
+  width: 100px;
+  box-shadow: none;
+  margin-left: 10px;
+}
+.timing p {
+  height: 30px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  color: #000;
+  position: relative;
+  left: 0px;
+}
+#submit_btn {
+  box-sizing: border-box;
+  position: relative;
+  height: 70px;
+  width: 400px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6) !important;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+}
+#admin {
+  display: none;
+}
+.bookemailnput {
+  position: relative;
+  left: -380px;
+  top: 115px;
+}
+@media screen and (max-width: 480px) {
+  .container h4 {
+    letter-spacing: 0.5px;
   }
-  #cal div{
+  #cal div {
     background: #fff;
   }
-  #cal button{
+  #cal button {
     box-shadow: none;
   }
-  .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 670px;
-    background: none;
-    position: absolute;
-    top: 60px;
-    left: 550px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
-    font-family: 'Poppins';
-  }
-  .container form button{
-    width: 10px;
-    height: 40px;
-    border: none;
-    outline: none;
-    background: none;
-  }
-  .container button:hover{
-    transition: 0.3s;
-    background-color: silver;
-    font-weight: 400;
-    letter-spacing: .3px;
-  }
-  .container form button{
-    font-size: 16px;
-    width: 100px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: -10px;
-    border-radius: 20px;
-    outline: none;
-    border: 0.1px solid;
-  }
-  .container #mail{
-    font-size: 16px;
-    width: 380px;
-    height: 40px;
-    border: 1px solid;
-    text-align: center;
-    font-weight: 600;
-  }
-  #setTime{
-    position: relative;
-    top: 1px;
-    left: 150px;
-  }
-  .container form button:hover{
-    transition: 0.3s;
-    background-color: silver;
-    font-weight: 400;
-    letter-spacing: .2px;
-  }
-  .timing{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 380px;
-    height: 400px;
-   display: flex;
-   align-items: center;
-  }
-  #slots{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  #slots div { 
-    background:none;
-    border-radius: 50% !important;
-  }
-  .timing #slots input{
-    border: none;
-    outline: none;
-    background: none;
-    height: 100px;
-    width: 100px;
-    box-shadow: none;
-    margin-left: 10px;
-  }
-  .timing p{
-    height: 30px;
-    width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    color: #000;
-    position: relative;
-    left: 0px;
-  }
-  #submit_btn
-  {
-    box-sizing: border-box;
-    position: relative;
-    height: 70px;
-    width: 400px;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.6) !important;
-      font-size: 20px;
-      text-transform: uppercase;
-      cursor: pointer;
-      padding: 5px;
-  }
-  #admin{
-    display: none;
-  }
-
-@media screen and (max-width : 480px){
-  .container h4{
-    letter-spacing: .5px;
-  }
-  #cal div{
-    background: #fff;
-  }
-  #cal button{
-    box-shadow: none;
-  }
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,23 +148,23 @@
     position: absolute;
     top: 70px;
     left: 10px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
-    font-family: 'Poppins';
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    font-family: "Poppins";
   }
-  .container form button{
+  .container form button {
     width: 10px;
     height: 40px;
     border: none;
     outline: none;
     background: none;
   }
-  .container button:hover{
+  .container button:hover {
     transition: 0.3s;
     background-color: silver;
     font-weight: 400;
-    letter-spacing: .3px;
+    letter-spacing: 0.3px;
   }
-  .container form button{
+  .container form button {
     font-size: 16px;
     width: 100px;
     height: 40px;
@@ -171,7 +174,7 @@
     outline: none;
     border: 0.1px solid;
   }
-  .container #mail{
+  .container #mail {
     font-size: 16px;
     width: 380px;
     height: 40px;
@@ -179,35 +182,35 @@
     text-align: center;
     font-weight: 600;
   }
-  #setTime{
+  #setTime {
     position: relative;
     top: 1px;
     left: 150px;
   }
-  .container form button:hover{
+  .container form button:hover {
     transition: 0.3s;
     background-color: silver;
     font-weight: 400;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
   }
-  .timing{
+  .timing {
     margin-top: 20px;
     margin-left: 10px;
     width: 380px;
     height: 400px;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
   }
-  #slots{
+  #slots {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  #slots div { 
-    background:none;
+  #slots div {
+    background: none;
     border-radius: 50% !important;
   }
-  .timing #slots input{
+  .timing #slots input {
     border: none;
     outline: none;
     background: none;
@@ -216,7 +219,7 @@
     box-shadow: none;
     margin-left: 10px;
   }
-  .timing p{
+  .timing p {
     height: 30px;
     width: 120px;
     display: flex;
@@ -227,22 +230,26 @@
     position: relative;
     left: 0px;
   }
-#submit_btn
-{
-  box-sizing: border-box;
-  position: relative;
-  height: 70px;
-  width: 400px;
-  box-shadow: 2px 2px 20px rgba(0,0,0,0.6) !important;
+  #submit_btn {
+    box-sizing: border-box;
+    position: relative;
+    height: 70px;
+    width: 400px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6) !important;
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
     padding: 5px;
-}
-table{
-  color : red;
-}
-#admin{
-  display: none;
-}
+  }
+  table {
+    color: red;
+  }
+  #admin {
+    display: none;
+  }
+  .bookemailnput {
+    position: relative;
+    left: -380px;
+    top: 115px;
+  }
 }

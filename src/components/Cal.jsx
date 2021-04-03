@@ -98,7 +98,7 @@ const Cal = () => {
                         <p>2 to 5</p>
                     </div>
                     </div>
-                    <div onChange={onChangeEmail}>
+                    <div className='bookemailnput' onChange={onChangeEmail}>
                         <input type="email" required id="mail" name="email" value={emailVal} placeholder='Email'></input>.
                     </div>
                 </div>

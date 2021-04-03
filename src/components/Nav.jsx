@@ -31,7 +31,7 @@ const Nav = () => {
       <div id='nav'>
           <div id='logo'>
           
-          <h1><img className='nav_logo' src={honda_logo} alt="logo"/>onda 
+          <h1><img className='nav_logo' src={honda_logo} alt="logo"/>Honda
           <span id='serviceText'>Service</span>
           </h1>
             <select>
