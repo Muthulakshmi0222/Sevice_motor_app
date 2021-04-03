@@ -156,6 +156,12 @@
   #nav {
     height: 50px;
   }
+  .nav_logo {
+    height: 20px;
+    position: relative;
+    top: 0px;
+    display: none;
+  }
   #logo {
     left: 70px;
     font-size: 10px;

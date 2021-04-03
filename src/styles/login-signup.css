@@ -3,14 +3,14 @@
   margin: 0;
   padding: 0;
 }
-.login img{
+.login img {
   position: relative;
   height: 150px;
   width: 150px;
   top: -50px;
   left: 35%;
   border-radius: 50%;
-  background: url('https://cdn.imgbin.com/6/25/24/imgbin-user-profile-computer-icons-user-interface-mystique-aBhn3R8cmqmP4ECky4DA3V88y.jpg');
+  background: url("https://cdn.imgbin.com/6/25/24/imgbin-user-profile-computer-icons-user-interface-mystique-aBhn3R8cmqmP4ECky4DA3V88y.jpg");
   background-size: cover;
   border: none;
   outline: none;
@@ -51,14 +51,14 @@
   position: relative;
   top: 0px;
 }
-.login .loginContainer h5{
+.login .loginContainer h5 {
   position: relative;
   left: 150px;
   letter-spacing: 1px;
   font-weight: 100;
   top: -40px;
 }
-.login .loginContainer h5 span{
+.login .loginContainer h5 span {
   letter-spacing: 1px;
   font-size: 20px;
   font-weight: 500;
@@ -161,11 +161,11 @@
   color: #fff;
   font-weight: 300;
 }
-#logOut{
+#logOut {
   position: relative;
   top: 20px;
 }
-@media (prefers-color-scheme : light){
+@media (prefers-color-scheme: light) {
   .login .loginContainer {
     background: #fff;
   }
@@ -178,7 +178,7 @@
   .login .loginContainer label {
     color: #000;
   }
-  
+
   .loginContainer input {
     color: #000;
   }
@@ -187,15 +187,15 @@
   }
 }
 
-@media screen and  ( max-width : 480px){
-  .login img{
+@media screen and (max-width: 480px) {
+  .login img {
     left: 20%;
   }
   .login .loginContainer {
     position: relative;
     height: 100vh;
   }
-  .login .loginContainer h5{
+  .login .loginContainer h5 {
     position: relative;
     left: 30px;
     letter-spacing: 1px;
@@ -203,13 +203,13 @@
     top: -40px;
     font-size: 17;
   }
-  .login .loginContainer h5 span{
+  .login .loginContainer h5 span {
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 500;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   }
-  #glogin button{
+  #glogin button {
     position: relative;
     top: -20px;
     left: 75px;

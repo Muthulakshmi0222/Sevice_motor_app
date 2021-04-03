@@ -244,8 +244,9 @@ button {
     font-size: 14.4px;
   }
   #home {
-    background: url(https://fsb.zobj.net/crop.php?r=XAd1Ow-gaBVc8IWRlovvchg8cNbw4jX6YcNQKfrqFKnzhSLLHNtdu_VjKJdkHzbTDD3nx-4VjDjQjKDN1bQelqSmZy1UWlDE3zBL8oeEMjIM8LBaTjMMyBz6TSuEbczKM2_kCWktxzfSJXWu);
+    background: url(https://github.com/Aman2221/AmanPortfolio.github.io/blob/master/assets/img/honda_logo.png?raw=true);
     background-size: cover;
+    background-position: center;
     height: 100vh;
   }
   #Check_Price {
