@@ -22,7 +22,7 @@ const App = () => {
                 user : result.user
             })
         })
-    }, [user])
+    }, [])
   return(
     <>
       <Nav/>
