@@ -7,33 +7,33 @@ save your valuable time to do other works.
 
 ## Project Screen Shot(s)
 
-### 1. Sign Up Pages
-#### Page one
-<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/LOGIN.png" alt="preview" /> <br/>
+### 1. Sign Up/Log in Page
+<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/LOGIN.png" alt="preview" /> <br />
 
-#### Page two
-<img src="./readme-img/signup-two.png" alt="preview" /> <br/>
+### 2. Home Page
+<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/HOMEPAGE.png" alt="preview" /> <br />
 
-#### Page three
-<img src="./readme-img/signup-three.png" alt="preview" /> <br/>
+### 3. News Page
+<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/NEWS%20FINAL.png" alt="preview" />
 
-### 2. Login Page
-<img src="./readme-img/login.png" alt="preview" /> <br />
+### 4. Parts Page
+<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/PARTS.png" alt="preview" />
 
-### 3. Admin Page.
-<img src="./readme-img/admin.png" alt="preview" />
+### 5. Profile Page
+<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/PROFILE.png" alt="preview" />
 
-### 4. Dashboard Page.
-<img src="./readme-img/dashboard.png" alt="preview" />
+### 6. Basket Page
+<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/BASKET.png" alt="preview" />
 
-### 4. Profile Page.
-<img src="./readme-img/profile.png" alt="preview" />
+### 7. Book Service Page
+<img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/BOOK%20NOW.png" alt="preview" />
+
 
 ## Tecnologies:
 
 - **ReactJS** - JavaScript library that is used for building user interfaces specifically for single-page applications.
 - **Firebase** -  Creating Backend for application.
-- **Bootstrap** - CSS framework directed at responsive, mobile-first front-end web development.
+- **Material-ui** - Material-UI is an open-source project that features React components that implement Google's Material Design.
 
 ## Installation and Setup Instructions
 
