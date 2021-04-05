@@ -5,7 +5,7 @@ save your valuable time to do other works.
 
 **Project Published on Firebase :** (https://glowing-anagram-267211.firebaseapp.com/)
 
-## Project Screen Shot(s)
+## Project Pages
 
 ### 1. Sign Up/Log in Page
 <img src="https://github.com/Aman2221/FINAL_YEAR_PROJECT/blob/main/src/img/PAGES/LOGIN.png" alt="preview" /> <br />
