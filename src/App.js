@@ -26,32 +26,32 @@ const App = () => {
   return(
     <>
       <Nav/>
-      <Switch>
-          <Route exact path="/">
-              <Home />
-          </Route>
-          <Route exact path="/News">
-              <News/>
-          </Route>
-          <Route exact path="/SpareParts">
-              <SpareParts/>
-          </Route>
-          <Route exact path="/Profile">
-              <Profile/>
-          </Route>
-          <Route exact path="/Service">
-              <Service/>
-          </Route>
-          <Route exact path="/Login">
-              <Login/>
-          </Route>
-          <Route exact path="/Admin">
-               <Admin_Page/>
-          </Route>
-          <Route exact path="/orders">
-               <Order />
-          </Route>
-      </Switch>
+        <Switch>
+            <Route exact path="/">
+                <Home />
+            </Route>
+            <Route exact path="/News">
+                <News/>
+            </Route>
+            <Route exact path="/SpareParts">
+                <SpareParts/>
+            </Route>
+            <Route exact path="/Profile">
+                <Profile/>
+            </Route>
+            <Route exact path="/Service">
+                <Service/>
+            </Route>
+            <Route exact path="/Login">
+                <Login/>
+            </Route>
+            <Route exact path="/Admin">
+                <Admin_Page/>
+            </Route>
+            <Route exact path="/orders">
+                <Order />
+            </Route>
+        </Switch>
     </>
   );
 };
