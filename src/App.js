@@ -48,7 +48,7 @@ const App = () => {
           <Route exact path="/Admin">
                <Admin_Page/>
           </Route>
-          <Route exact path="/orders" >
+          <Route exact path="/orders">
                <Order />
           </Route>
       </Switch>
