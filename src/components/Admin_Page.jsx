@@ -26,7 +26,7 @@ function Admin_Page() {
                   </p>  
         ))}
       </li>
-      <li>
+      <li id='email_admin'>
         <h3><i className='bx bx-time'></i>Time</h3>
         {
           data.map((item) => (
@@ -36,7 +36,7 @@ function Admin_Page() {
           ))}
         
       </li>
-      <li>
+      <li >
         <h3><i className="far fa-envelope"></i>Email</h3>
           {data.map((item) => (
               <p>

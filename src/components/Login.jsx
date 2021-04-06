@@ -90,7 +90,6 @@ const Login = () => {
         {user ? (
             <div>
             <Logout handleLogout = {handleLogout}/>
-            <Admin_Page/>
             </div>
         ): (
             <Login_page
