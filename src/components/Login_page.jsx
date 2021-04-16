@@ -1,5 +1,6 @@
 import React ,{ useState, useEffect} from "react";
 import GoogleLogin from 'react-google-login';
+import { Link } from "react-router-dom";
 import { auth , provider} from "../firebase";
 import { useStateValue } from "../StateProvider";
 import '../styles/login-signup.css'
@@ -74,7 +75,7 @@ const Login_page = (props) => {
                 />
                 </div>
                 <div id='logOut'>
-                <button onClick={handleLogout}>Logout</button>
+                <Link to='/admin_login'><button>Admin Login</button></Link>
                 </div>
             </div>
         </section>

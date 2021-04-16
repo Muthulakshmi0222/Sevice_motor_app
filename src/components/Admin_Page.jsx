@@ -1,6 +1,7 @@
 import '../styles/Admin_Page.css';
 import React ,{ useState, useEffect } from 'react'
 import { db } from '../firebase'
+
 function Admin_Page() {
   const [data, setData] = useState([]);
   useEffect(() => {

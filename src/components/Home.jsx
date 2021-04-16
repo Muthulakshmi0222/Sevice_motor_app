@@ -20,13 +20,14 @@ const Home = () => {
   }
 
   const successCallback = (possition) => {
+
   };
 
   const errorCallback = (error) => {
     console.log('Please Allow Location');
   };
 
-navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+  navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
   return(
     <>
       <div id='home'>

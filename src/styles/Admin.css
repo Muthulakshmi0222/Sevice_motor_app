@@ -1,58 +1,42 @@
-#admin-nav{
-    width: 100%;
-    height: 60px;
-    background: #6155A6;
-    position: absolute;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    color: red;
+.admin_login_Div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.adminLoginContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  line-height: 60px;
+  align-items: center;
+}
+.adminLoginContainer > h2 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 32px;
 }
 
-#admin-nav h1{
-    letter-spacing: 1.5px;
-    font-weight: 600;
-    font-family: 'Poppins';
-    position: relative;
-    top: 3.5px;
-    font-size: 32px;
-    z-index: 1000;
-    color: #fff;
+.adminLoginContainer > form > input {
+  margin-top: 20px;
+  font-weight: 100 !important;
+  color: #ffff;
+  background: none;
+  border-bottom: 1px solid lightgray;
 }
-#admin-nav h1 i{
-    position: relative;
-    left: -5px;
-    top: -3px;
-    font-size: 25px;
+
+.adminLoginContainer > form > button {
+  margin-top: 30px;
 }
-#admin-Data {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    top: 60px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#admin-Data ul li{
-    color: red;
-}
-.table{
-    height: 100px;
-    width: 100%;
-    color: lime;
-    border: 2px solid red;
-}
-.table th {
-    letter-spacing: 1px;
-    color: #fff;
-}
-#admin-Data table thead th i {
-    position: relative;
-    left: -2px;
+
+#adminErrors {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 0px;
 }
