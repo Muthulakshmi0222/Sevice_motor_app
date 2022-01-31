@@ -13,7 +13,7 @@ const Cal = () => {
 
     let newValue = value.toDateString();
 
-
+ 
     const sendMessage = (e) => {
         e.preventDefault();
         db.collection("Date").add({

@@ -12,7 +12,7 @@ const Admin = () => {
     const ADMIN_EMAIL = process.env.REACT_APP_ADMIN_EMAIL;
     const ADMIN_PASSWORD = process.env.REACT_APP_ADMIN_PASSWORD;
 
-    const handleAdmin = (e) => {
+    const handleAdmin = (e) => { 
         e.preventDefault();
         if(adminEmail.trim().length > 0 && adminPassword.trim().length > 0){
             if(adminEmail === ADMIN_EMAIL && adminPassword === ADMIN_PASSWORD){

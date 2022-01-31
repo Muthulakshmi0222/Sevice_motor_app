@@ -11,7 +11,7 @@ function Admin_Page() {
     })
     .catch( (e) => {
       alert("can't access db",e);
-      console.log(e);
+      console.log(e); 
     })
   }, [data]);
   return (
